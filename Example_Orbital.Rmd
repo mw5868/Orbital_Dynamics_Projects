@@ -5,7 +5,6 @@ output: html_notebook
 
 This example code was created by Daniel O'Neil.
 
-Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Ctrl+Shift+Enter*. 
 
 ```{r}
 #Initialize
@@ -40,7 +39,7 @@ points(c.x,c.y,type="l", col="green")
 
 ```
 
-The same sort of function can be produced in Python using the OrbitalPy library:
+The same sort of function can be produced in Python using the OrbitalPy library and the standard numpy and scipy libraries:
 ```{python}
 from numpy import radians
 from scipy.constants import kilo
