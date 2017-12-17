@@ -2,10 +2,26 @@
 title: "Friendship 7 Orbital Model"
 output: html_notebook
 ---
+#Scope
+The purpose of this document is to outline the basic pricipals of orbital dynamics, and demonstrate how different code libraries can be used to achieve graphic modeling and scientific computing.
 
-##Python Code
+##Outline of Orbital Dynamics
+
+```{python}
+a #Semimajor Axis
+e #Eccentricity 
+
+
+
+```
+
+
+#Code
+
+###Python Code
 The main code library used in this work is [OrbitalPy](http://pythonhosted.org/OrbitalPy/).  
-The basic code utilises the keplerian elements of orbital mechanics.
+The basic code utilises the keplerian elements of orbital mechanics as *KeplerianElements*.  
+As part of the computation we also invoke the Numpy, Matplot and ScipPy libraries.
 
 ```{python, engine.path="/Users/Mark/anaconda3/python", results = 'hold'}
 from numpy import radians
@@ -16,7 +32,7 @@ from orbital import earth, KeplerianElements,plot3d
 orbit1 = KeplerianElements.with_altitude(1000*kilo,body=earth, e=0.5)
 
 # Plots in 3d the orbital parameters, including the defined maneuver.
-plot3d(orbit1,title='Basic Orbit')
+plot3d(orbit1,title='Basic Orbit',)
 plt.savefig('orbit_one.png')
 
 
