@@ -154,3 +154,13 @@ rglwidget()
 
 ```
 
+#The Actual Flight
+###Orbital Parameters
+
+**Regime** = *Low Earth Orbit*  
+**Perigee** = *149km*  
+**Apogee** = *248km*  
+**Inclination** = *32.5 degrees*  
+**Period** = *88.47 Minutes*  
+
+
