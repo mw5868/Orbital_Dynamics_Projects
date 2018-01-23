@@ -1,7 +1,8 @@
 ---
-title: "Friendship 7 Orbital Model"
+title: "R Notebook"
 output: html_notebook
 ---
+
 #Scope
 The purpose of this document is to outline the basic pricipals of orbital dynamics, and demonstrate how different code libraries can be used to achieve graphic modeling and scientific computing.
 
@@ -162,4 +163,3 @@ rglwidget()
 **Apogee** = *248km*  
 **Inclination** = *32.5 degrees*  
 **Period** = *88.47 Minutes*  
-
